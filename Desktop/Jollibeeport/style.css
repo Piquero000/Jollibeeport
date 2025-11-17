@@ -12,7 +12,7 @@
 * { box-sizing: border-box; }
 html, body { margin: 0; padding: 0; }
 body {
-  font-family: Arial, sans-serif;
+  font-family: Quickysand, sans-serif;
   color: var(--dark);
   background: var(--cream);
   line-height: 1.6;
@@ -59,16 +59,15 @@ body {
 
 /* Hero */
 .hero {
-  background: linear-gradient(rgba(214,40,40,0.9), rgba(214,40,40,0.9)), url('https://via.placeholder.com/1600x900?text=Hero+Background');
+  background: linear-gradient(rgba(214, 40, 40, 0.593), rgba(214,40,40,0.9)), url('https://sa.kapamilya.com/absnews/abscbnnews/media/2018/business/06/29/20180629-jollibee.jpg?ext=.jpg');
   background-size: cover; background-position: center;
   color: var(--light);
-  padding: 80px 0;
+  padding: 234px 0;
   text-align: left;
 }
 .hero h1 { margin: 0 0 12px 0; font-size: 34px; }
 .hero p { max-width: 720px; margin: 0 0 18px 0; color: #f4f4f4; }
 .hero-actions { display: flex; gap: 12px; flex-wrap: wrap; }
-text-align: left;
 
 /* Buttons */
 .btn {
@@ -82,7 +81,7 @@ text-align: left;
 .btn-secondary { background: var(--light); color: var(--red); border: 1px solid var(--border); }
 
 /* Sections */
-.section { padding: 40px 0; }
+.section { padding: 100px 0; }
 .section h2 { margin: 0 0 14px 0; color: var(--red); font-size: 26px; }
 .section p { color: var(--dark); }
 
