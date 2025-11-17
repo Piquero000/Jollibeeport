@@ -1,3 +1,21 @@
+//Mobile menu Toggle
+const menuBtn = document.getElementById('menu-btn');
+const siteNav = document.getElementById('site-nav');
+
+menuBtn.addEventListener('click', () => {
+  const isOpen = siteNav.style.display === 'block';
+  siteNav.style.display = isOpen ? 'none' : 'block';
+});
+
+// Close menu when a link is clicked (mobile)
+siteNav.querySelectorAll('a').forEach(link => {
+  link.addEventListener('click', () => {
+    if (window.innerWidth <= 768) {
+      siteNav.style.display = 'none';
+    }
+  });
+});
+
 const form = document.getElementById('franchiseForm');
 const popup = document.getElementById('confirmation-popup');
 const popupMessage = document.getElementById('confirmation-message');
